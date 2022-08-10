@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>Breakfast Places in Mumbai</title>
+</head>
+<body>
+    <!-- div for nav bar -->
+    <div class="navbar"> 
+        <div class="logo">
+            <div class="logoLetter">e!</div>
+            <div class="buttons">
+                <a href="#" class="loginbtn">Login</a>
+                <!-- <a href="#" class="registerbtn">Create an account</a> -->
+                <button class="registerbtn">Create an account</button>
+            </div>
+        </div>
+    </div>
+    <!-- div for header -->
+    <div class="header"> 
+        Breakfast Places in Mumbai
+    </div>
+    <!-- div for filter -->
+    <div class="filterbox"> 
+        <div class="filtertxt">Filters</div>
+        <div id="filterdroptxt">Select Location</div>
+        <select name="filter" id="filter">
+            <option value="">Select Location</option>
+            <option value="Thane">Thane</option>
+            <option value="Houz Kauz">Houz Kauz</option>
+            <option value="Noida">Noida</option>
+        </select>
+        <div id="cusine">Cusine</div>
+        <div id="filters">
+            <div>
+                <input type="checkbox" class="checkbox">
+                <span class="filterWords">North Indian</span>
+            </div>
+            <div>
+                <input type="checkbox" class="checkbox">
+                <span class="filterWords">South Indian</span>
+            </div>
+            <div>
+                <input type="checkbox" class="checkbox">
+                <span class="filterWords">Chinese</span>
+            </div>
+            <div>
+                <input type="checkbox" class="checkbox">
+                <span class="filterWords">Fast Food</span>
+            </div>
+            <div>
+                <input type="checkbox" class="checkbox">
+                <span class="filterWords">Street Food</span>
+            </div>
+        </div>
+        <div id="cost2">Cost For Two</div>
+        <div id="cost">
+            <div>
+                <input type="radio" name="price" class="radio">
+                <span class="filterWords">Less than 500</span>
+            </div>
+            <div>
+                <input type="radio" name="price" class="radio">
+                <span class="filterWords">500 to 1000</span>
+            </div>
+            <div>
+                <input type="radio" name="price" class="radio">
+                <span class="filterWords">1000 to 1500</span>
+            </div>
+            <div>
+                <input type="radio" name="price" class="radio">
+                <span class="filterWords">1500 to 2000</span>
+            </div>
+            <div>
+                <input type="radio" name="price" class="radio">
+                <span class="filterWords">2000+</span>
+            </div>
+        </div>
+        <div id="sort2">Sort</div>
+        <div id="sort">
+            <div>
+                <input type="radio" class="radio">
+                <span class="filterWords">Price low to high</span>
+            </div>
+            <div>
+                <input type="radio" class="radio">
+                <span class="filterWords">Price high to low</span>
+            </div>
+        </div>
+    </div>
+    <!-- div for catalog -->
+    <div>
+        <div class="catalogs" id="catalog1"> 
+            <img class="images" src="./images/cusineimg.png">
+            <span class="catalogtit">The Big Chill Cakery</span>
+            <span class="catalogtxt">Fort</span>
+            <span class="catalogsubtxt">Shop 1, Plot D, Samruddhi Complex, Chincholi...</span>
+            <hr class="hrbar"/>
+            <div class="prices">
+                <div>CUISINES:</div>
+                <div>COST FOR TWO:</div>
+            </div>
+            <div class="pricelist">
+                <div>Bakery</div>
+                <div>₹700</div>
+            </div>
+        </div>
+        <div class="catalogs" id="catalog2"> 
+            <img class="images" src="./images/cusineimg.png">
+            <span class="catalogtit">The Bake Shop</span>
+            <span class="catalogtxt">Fort</span>
+            <span class="catalogsubtxt">Shop 1, Plot D, Samruddhi Complex, Chincholi...</span>
+            <hr class="hrbar"/>
+            <div class="prices">
+                <div>CUISINES:</div>
+                <div>COST FOR TWO:</div>
+            </div>
+            <div class="pricelist">
+                <div>Bakery</div>
+                <div>₹700</div>
+            </div>
+        </div>
+    </div>
+    <!-- div for footer -->
+    <div>
+        <span class="rectangle" id="rectangle1"><</span>
+        <span class="rectangle" id="rectangle2">1</span>
+        <span class="rectangle" id="rectangle3">2</span>
+        <span class="rectangle" id="rectangle4">3</span>
+        <span class="rectangle" id="rectangle5">4</span>
+        <span class="rectangle" id="rectangle6">5</span>
+        <span class="rectangle" id="rectangle7">></span>
+    </div>
+</body>
+</html>
